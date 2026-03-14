@@ -18,6 +18,7 @@
             </div>
         </nav>
 <main>
+    
     <div class="dashboard-header">
         <div class="btn-newuser">
         </div>
@@ -58,7 +59,7 @@
                 <td>Adriano</td>
                 <td>adriano.silva@emaiil.com</td>
                 <td>Editor</td>
-                <td>Ativo</td>
+                <td><span class="badge inativo">Inativo</span></td>
                 <td><button class="btn-icon"><i class="fa-solid fa-pen-to-square"></i></button>
                     <button class="btn-icon"><i class="fa-solid fa-trash"></i></button>
                     <button class="btn-icon"><i class="fa-solid fa-eye"></i></button>

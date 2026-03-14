@@ -10,6 +10,8 @@
 
 </head>
 <body>
+     <div class="dashboard-container">
+        <?php include 'menu.php'; ?> 
     <main>
         <section class="card-form">
     <div class="form-header">
@@ -50,5 +52,6 @@
 </section>
 
 </main>
+</div>
 </body>
 </html>
