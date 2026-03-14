@@ -53,3 +53,7 @@ tbody tr:hover {
 
 .ativo { background-color: #d4edda; color: #155724; }
 .inativo { background-color: #f8d7da; color: #721c24; }
+
+.btncad{
+    text-align: right;
+}

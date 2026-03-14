@@ -4,32 +4,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
  <div class="dashboard-container">
-  <nav>
-            <ul>
-                <li><a href="dashboard.php">Início</a></li>
-                <li><a href="usuarios.php">Usuários</a></li>
-                <li><a href="#">Relatórios</a></li>
-                <li><a href="#">Configurações</a></li>
-            </ul>
-
-            <div class="perfil-usuario">
-                <img src="https://ui-avatars.com/api/?name=Kassio+Adriano&background=008080&color=fff" alt="Avatar">
-                <span>Kássio</span>
-            </div>
-        </nav>
+     <?php include 'menu.php'; ?> 
 <main>
-    
+
     <div class="dashboard-header">
         <div class="btn-newuser">
         </div>
-        <a href="cad-usuario.php" class="btn-novo-usuario">
-            <i class="fa-solid fa-user-plus"></i> Cadastrar Usuário
-        </a>
+        
     </div>
     <div class= "header-content">
         <h2>Gestão de Usuários</h2>
         <p>Vizualize e gerencie as permissões dos usuários do sistema.</p>
     </div>
+    <div class ="btncad"><a href="cad-usuario.php" class="btn-novo-usuario">
+            <i class="fa-solid fa-user-plus"></i> Cadastrar Usuário
+        </a></div>
         <div class="table-responsive"> 
         <table>
             <thead>
