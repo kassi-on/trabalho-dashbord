@@ -4,25 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-<link rel="stylesheet" href="dash.css">
+
+    <link rel="stylesheet" href="dash.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="tabelas.css">
 <link rel="stylesheet" href="btn.css">
-
 </head>
 <body>
-    
- <div class="dashboard-container">
+     <div class="dashboard-container">
      <?php include 'menu.php'; ?> 
 <main>
     <div class= "header-content">
         <div class="header-title">
-        <h2>Gestão de Usuários</h2>
+        <h2>Gestão de Categorias</h2>
         <p>Vizualize e gerencie as permissões dos usuários do sistema...</p>
-    </div>
-        <a href="cad-usuario.php" class="btnadd"><i class="fa-solid fa-plus"></i>Adicionar Usuário</a>
-    </div>
         <div class="table-responsive"> 
         <table>
             <thead>
@@ -58,16 +53,8 @@
                         <button class="btn-icon"><i class="fa-solid fa-eye"></i></button>
                     </td>
                 </tr>
-            </tbody>
-            <tfoot>
-                    <tr>
-                        <td colspan="6" align="right">Informação da quantidade de resgistros...</td>
-                    </tr>
-            </tfoot>
         </table>
     </div>
 </main>
-</div>
-<?php include 'rodape.php'; ?>
 </body>
 </html>

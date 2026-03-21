@@ -2,8 +2,8 @@
     <ul>
         <li><a href="dashboard.php">Início</a></li>
         <li><a href="usuarios.php">Usuários</a></li>
-        <li><a href="#">Relatórios</a></li>
-        <li><a href="#">Configurações</a></li>
+        <li><a href="categorias.php">categorias</a></li>
+        <li><a href="produtos.php">Postagens</a></li>
     </ul>
 
     <div class="perfil-usuario">
