@@ -17,7 +17,7 @@
      <?php include 'menu.php'; ?> 
 <main>
     <div class= "header-content">
-        <div class="header-title">
+        <div class="header-title"> 
         <h2>Gestão de Usuários</h2>
         <p>Vizualize e gerencie as permissões dos usuários do sistema...</p>
     </div>
