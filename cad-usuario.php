@@ -45,7 +45,7 @@
         </div>
 
         <div class="form-actions">
-            <button type="submit" class="btn-save"><i class="fa-solid fa-floppy-disk"></i>Finalizar Cadastro</button>
+            <button type="submit" class="btn-save"><i class="fa-solid fa-floppy-disk"></i> Finalizar Cadastro</button>
             <a href="usuarios.php" class="btn-cancel">Cancelar</a>
         </div>
     </form>

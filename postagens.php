@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Postagens</title>
     
 <link rel="stylesheet" href="dash.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -18,21 +18,21 @@
 <main>
     <div class= "header-content">
         <div class="header-title">
-        <h2>Gestão de Usuários</h2>
-        <p>Vizualize e gerencie as permissões dos usuários do sistema...</p>
+        <h2>Gestão de Postagens</h2>
+        <p>Vizualize e gerencie as postagens...</p>
     </div>
-        <a href="cad-usuario.php" class="btnadd"><i class="fa-solid fa-plus"></i> Adicionar Usuário</a>
+        <a href="cad-usuario.php" class="btnadd"><i class="fa-solid fa-plus"></i> Adicionar Postagens</a>
     </div>
         <div class="table-responsive"> 
         <table>
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Nome</th>
-                    <th>E-mail</th>
-                    <th>Acesso</th>
+                    <th>Titulo</th>
+                    <th>Conteudo</th>
+                    <th>Categoria</th>
                     <th>Status</th>
-                    <th>Ações</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
